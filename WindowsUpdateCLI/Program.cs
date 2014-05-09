@@ -17,6 +17,7 @@ namespace WindowsUpdateCLI
         {
             if (args != null && args.Length > 0 && args[0].Equals("/Install", StringComparison.OrdinalIgnoreCase))
             {
+                Console.WriteLine("Searching for Updates...");
                 UpdateSession UpdateSession = new UpdateSession();
                 IUpdateSearcher UpdateSearch = UpdateSession.CreateUpdateSearcher();
                 UpdateSearch.Online = true;
@@ -40,6 +41,7 @@ namespace WindowsUpdateCLI
                     return;
                 }
 
+                Console.WriteLine("Downloading Updates");
                 UpdateDownloader Downloader = UpdateSession.CreateUpdateDownloader();
 
                 Downloader.Updates = UpdateCollection;
@@ -66,8 +68,9 @@ namespace WindowsUpdateCLI
 
                 UpdateInstaller InstallAgent = (UpdateInstaller)UpdateSession.CreateUpdateInstaller();
                 InstallAgent.Updates = InstallCollection;
-
+                Console.WriteLine("Installing Updates...");
                 IInstallationResult InstallResult = InstallAgent.Install();
+                Console.WriteLine("Updates Completed.");
             }
             else
             {
