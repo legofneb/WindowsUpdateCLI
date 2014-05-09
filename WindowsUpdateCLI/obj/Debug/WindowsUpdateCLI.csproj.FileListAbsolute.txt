@@ -1,0 +1,9 @@
+\\psf\home\documents\visual studio 2013\Projects\WindowsUpdateCLI\WindowsUpdateCLI\bin\Debug\WindowsUpdateCLI.exe.config
+\\psf\home\documents\visual studio 2013\Projects\WindowsUpdateCLI\WindowsUpdateCLI\bin\Debug\WindowsUpdateCLI.exe
+\\psf\home\documents\visual studio 2013\Projects\WindowsUpdateCLI\WindowsUpdateCLI\bin\Debug\WindowsUpdateCLI.pdb
+\\psf\home\documents\visual studio 2013\Projects\WindowsUpdateCLI\WindowsUpdateCLI\obj\Debug\WindowsUpdateCLI.csprojResolveAssemblyReference.cache
+\\psf\home\documents\visual studio 2013\Projects\WindowsUpdateCLI\WindowsUpdateCLI\obj\Debug\Interop.WUApiLib.dll
+\\psf\home\documents\visual studio 2013\Projects\WindowsUpdateCLI\WindowsUpdateCLI\obj\Debug\WindowsUpdateCLI.csproj.ResolveComReference.cache
+\\psf\home\documents\visual studio 2013\Projects\WindowsUpdateCLI\WindowsUpdateCLI\obj\Debug\WindowsUpdateCLI.exe
+\\psf\home\documents\visual studio 2013\Projects\WindowsUpdateCLI\WindowsUpdateCLI\obj\Debug\WindowsUpdateCLI.pdb
+\\psf\home\documents\visual studio 2013\Projects\WindowsUpdateCLI\WindowsUpdateCLI\bin\Debug\Interop.WUApiLib.dll
